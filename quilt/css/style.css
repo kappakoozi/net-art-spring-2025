@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+  }
+  
+  .divcontainer {
+    width: 100vw;
+    height: 100vh;
+  }
+  
+  .block {
+    float: left;
+    width: 20%;
+    height: 25%;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .block1  { background-color: #ff95f6; }
+  .block2  { background-image: url("https://static1.squarespace.com/static/5abef86f7e3c3a242ca0bd46/t/630c61356134f81dd789ed5e/1661755759939/0Y2A6620.jpg?format=1500w"); }
+  .block3  { background-color: #53e0ff; }
+  .block4  { background-image: url("https://image.petmd.com/files/styles/978x550/public/2022-10/french-bulldog.jpeg"); }
+  .block5  { background-color: #98ff95; }
+  .block6  { background-image: url("https://www.akc.org/wp-content/uploads/2017/11/French-Bulldog-standing-outdoors.jpg"); }
+  .block7  { background-color: #ff9595; }
+  .block8  { background-image: url("https://petzpark.com.au/cdn/shop/articles/Breeds_Thumbnails_5_1_1024x1024.jpg?v=1638422681"); }
+  .block9  { background-color: #ff95f6; }
+  .block10 { background-image: url("https://cdn11.bigcommerce.com/s-fduu8evurl/product_images/uploaded_images/blue.jpg"); }
+  .block11 { background-color: #53e0ff; }
+  .block12 { background-image: url("https://res.cloudinary.com/lancaster-puppies-laravel/image/upload/v1680187747/breeds/thbk7znvzxd41yump8ow.jpg"); }
+  .block13 { background-color: #98ff95; }
+  .block14 { background-image: url("https://cdn.britannica.com/44/233844-050-A0F9F39C/French-bulldog.jpg"); }
+  .block15 { background-color: #ff9595; }
+  .block16 { background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTq1PT4EBhAdAaLDiKUzNnFthBHOapi4dGk9g&s"); }
+  .block17 { background-color: #ff95f6; }
+  .block18 { background-image: url("https://static1.squarespace.com/static/5abef86f7e3c3a242ca0bd46/t/630c61356134f81dd789ed5e/1661755759939/0Y2A6620.jpg?format=1500w"); }
+  .block19 { background-color: #53e0ff; }
+  .block20 { background-image: url("https://image.petmd.com/files/styles/978x550/public/2022-10/french-bulldog.jpeg"); }
+  
