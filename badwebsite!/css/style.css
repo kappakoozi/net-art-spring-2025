@@ -1,0 +1,45 @@
+body {
+    background-color: lightyellow;
+    font-family: "Comic Sans MS", cursive;
+    font-size: 22px;
+    color: darkgreen;
+    text-align: center;
+    margin: 0;
+    padding: 25px;
+}
+
+#ugly-title {
+    font-size: 50px;
+    color: red;
+    background-color: cyan;
+    border: 6px dashed purple;
+    text-decoration: underline line-through;
+    font-style: italic;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.chaos-box {
+    background-color: orange;
+    border: 8px double black;
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto 40px;
+    opacity: 0.9;
+    font-weight: bold;
+}
+
+img {
+    border: 4px groove coral;
+    margin: 10px;
+    box-shadow: 5px 5px 15px gray;
+}
+
+.highlight {
+    font-size: 26px;
+    color: white;
+    background-color: aquamarine;
+    border: 2px dotted red;
+    padding: 5px;
+    display: inline-block;
+}
