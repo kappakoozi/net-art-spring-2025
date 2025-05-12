@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Transformation Re-Edit</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="divcontainer">
+    <div class="block block1"></div>
+    <div class="block block2 interactive"></div>
+    <div class="block block3"></div>
+    <div class="block block4 interactive"></div>
+    <div class="block block5"></div>
+    <div class="block block6 interactive"></div>
+    <div class="block block7"></div>
+    <div class="block block8 interactive"></div>
+    <div class="block block9"></div>
+    <div class="block block10 interactive"></div>
+    <div class="block block11"></div>
+    <div class="block block12 interactive"></div>
+    <div class="block block13"></div>
+    <div class="block block14 interactive"></div>
+    <div class="block block15"></div>
+    <div class="block block16 interactive"></div>
+    <div class="block block17"></div>
+    <div class="block block18 interactive"></div>
+    <div class="block block19"></div>
+    <div class="block block20 interactive"></div>
+  </div>
+
+  <audio id="barkSound" src="https://www.fesliyanstudios.com/play-mp3/6968"></audio>
+
+  <script>
+    document.querySelectorAll('.interactive').forEach(block => {
+      block.addEventListener('click', () => {
+        const audio = document.getElementById('barkSound');
+        audio.currentTime = 0;
+        audio.play();
+
+        const popup = document.createElement('div');
+        popup.textContent = 'woof woof';
+        popup.className = 'popup';
+        block.appendChild(popup);
+
+        setTimeout(() => {
+          block.removeChild(popup);
+        }, 1000);
+      });
+    });
+  </script>
+</body>
+</html>
